@@ -1,0 +1,91 @@
+.containermovie {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.cardimg {
+  border-radius: 10px;
+  background-color: azure;
+  width: 200px;
+  height: 300px;
+}
+//para que cuando ponga el mouse arriba de la img se vea un tras luz
+.cardimg:hover {
+  opacity: 0.7;
+}
+.cardtitle {
+  color: white;
+  font-size: 15px;
+}
+.moviegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 40px;
+  padding: 40 px;
+  justify-content: center;
+}
+.titlemovies {
+  font-size: 40px;
+  text-align: center;
+  color: aqua;
+  text-shadow: #ccc 1px 0 10px;
+}
+body {
+  background-color: #080f28;
+}
+//sacar lo subrayado del link
+a:link {
+  text-decoration: none;
+}
+.containerdetailscenter {
+  justify-content: center;
+  display: flex;
+}
+.containerdetails {
+  display: flex;
+  max-width: 600px;
+  justify-content: center;
+}
+.imgdetail {
+  border-radius: 10px;
+  margin: 12px;
+}
+.moviedetail {
+  font: 40px;
+  justify-content: center;
+}
+p {
+  color: white;
+}
+strong {
+  color: red;
+}
+.ContainerSearch {
+  display: flex;
+  justify-content: center;
+}
+.Search {
+  position: relative;
+}
+.Buttomsearch {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  background: none;
+}
+.SearchInput {
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px 25px 5 5;
+}
+.orange {
+  color: orange;
+}
+.white {
+  color: #ccc;
+}
+.ratingmovie {
+  font-size: 35px;
+}
